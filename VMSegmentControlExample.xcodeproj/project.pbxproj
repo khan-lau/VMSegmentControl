@@ -21,6 +21,19 @@
 		6CC84CCA19ADED9E001C9813 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC84CAC19ADED9D001C9813 /* UIKit.framework */; };
 		6CC84CD219ADED9E001C9813 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CD019ADED9E001C9813 /* InfoPlist.strings */; };
 		6CC84CD419ADED9E001C9813 /* VMSegmentControlExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC84CD319ADED9E001C9813 /* VMSegmentControlExampleTests.m */; };
+		6CC84CF419ADEE18001C9813 /* VMSegmentControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC84CF319ADEE18001C9813 /* VMSegmentControl.m */; };
+		6CC84D0319ADF01A001C9813 /* tab-global-p.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CF719ADF01A001C9813 /* tab-global-p.png */; };
+		6CC84D0419ADF01A001C9813 /* tab-global-p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CF819ADF01A001C9813 /* tab-global-p@2x.png */; };
+		6CC84D0519ADF01A001C9813 /* tab-global.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CF919ADF01A001C9813 /* tab-global.png */; };
+		6CC84D0619ADF01A001C9813 /* tab-global@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CFA19ADF01A001C9813 /* tab-global@2x.png */; };
+		6CC84D0719ADF01A001C9813 /* tab-personal-p.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CFB19ADF01A001C9813 /* tab-personal-p.png */; };
+		6CC84D0819ADF01A001C9813 /* tab-personal-p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CFC19ADF01A001C9813 /* tab-personal-p@2x.png */; };
+		6CC84D0919ADF01A001C9813 /* tab-personal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CFD19ADF01A001C9813 /* tab-personal.png */; };
+		6CC84D0A19ADF01A001C9813 /* tab-personal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CFE19ADF01A001C9813 /* tab-personal@2x.png */; };
+		6CC84D0B19ADF01A001C9813 /* tab-private-p.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CFF19ADF01A001C9813 /* tab-private-p.png */; };
+		6CC84D0C19ADF01A001C9813 /* tab-private-p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84D0019ADF01A001C9813 /* tab-private-p@2x.png */; };
+		6CC84D0D19ADF01A001C9813 /* tab-private.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84D0119ADF01A001C9813 /* tab-private.png */; };
+		6CC84D0E19ADF01A001C9813 /* tab-private@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84D0219ADF01A001C9813 /* tab-private@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,20 @@
 		6CC84CCF19ADED9E001C9813 /* VMSegmentControlExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VMSegmentControlExampleTests-Info.plist"; sourceTree = "<group>"; };
 		6CC84CD119ADED9E001C9813 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CC84CD319ADED9E001C9813 /* VMSegmentControlExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMSegmentControlExampleTests.m; sourceTree = "<group>"; };
+		6CC84CF219ADEE18001C9813 /* VMSegmentControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VMSegmentControl.h; sourceTree = "<group>"; };
+		6CC84CF319ADEE18001C9813 /* VMSegmentControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VMSegmentControl.m; sourceTree = "<group>"; };
+		6CC84CF719ADF01A001C9813 /* tab-global-p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-global-p.png"; sourceTree = "<group>"; };
+		6CC84CF819ADF01A001C9813 /* tab-global-p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-global-p@2x.png"; sourceTree = "<group>"; };
+		6CC84CF919ADF01A001C9813 /* tab-global.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-global.png"; sourceTree = "<group>"; };
+		6CC84CFA19ADF01A001C9813 /* tab-global@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-global@2x.png"; sourceTree = "<group>"; };
+		6CC84CFB19ADF01A001C9813 /* tab-personal-p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-personal-p.png"; sourceTree = "<group>"; };
+		6CC84CFC19ADF01A001C9813 /* tab-personal-p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-personal-p@2x.png"; sourceTree = "<group>"; };
+		6CC84CFD19ADF01A001C9813 /* tab-personal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-personal.png"; sourceTree = "<group>"; };
+		6CC84CFE19ADF01A001C9813 /* tab-personal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-personal@2x.png"; sourceTree = "<group>"; };
+		6CC84CFF19ADF01A001C9813 /* tab-private-p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-private-p.png"; sourceTree = "<group>"; };
+		6CC84D0019ADF01A001C9813 /* tab-private-p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-private-p@2x.png"; sourceTree = "<group>"; };
+		6CC84D0119ADF01A001C9813 /* tab-private.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-private.png"; sourceTree = "<group>"; };
+		6CC84D0219ADF01A001C9813 /* tab-private@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-private@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +139,7 @@
 		6CC84CAE19ADED9D001C9813 /* VMSegmentControlExample */ = {
 			isa = PBXGroup;
 			children = (
+				6CC84CF119ADEE18001C9813 /* VMSegmentControl */,
 				6CC84CB719ADED9D001C9813 /* VMAppDelegate.h */,
 				6CC84CB819ADED9D001C9813 /* VMAppDelegate.m */,
 				6CC84CBA19ADED9D001C9813 /* Main.storyboard */,
@@ -119,6 +147,7 @@
 				6CC84CBE19ADED9D001C9813 /* VMViewController.m */,
 				6CC84CC019ADED9D001C9813 /* Images.xcassets */,
 				6CC84CAF19ADED9D001C9813 /* Supporting Files */,
+				6CC84CF519ADF01A001C9813 /* resource */,
 			);
 			path = VMSegmentControlExample;
 			sourceTree = "<group>";
@@ -150,6 +179,42 @@
 				6CC84CD019ADED9E001C9813 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CC84CF119ADEE18001C9813 /* VMSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				6CC84CF219ADEE18001C9813 /* VMSegmentControl.h */,
+				6CC84CF319ADEE18001C9813 /* VMSegmentControl.m */,
+			);
+			path = VMSegmentControl;
+			sourceTree = SOURCE_ROOT;
+		};
+		6CC84CF519ADF01A001C9813 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				6CC84CF619ADF01A001C9813 /* pic */,
+			);
+			path = resource;
+			sourceTree = SOURCE_ROOT;
+		};
+		6CC84CF619ADF01A001C9813 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				6CC84CF719ADF01A001C9813 /* tab-global-p.png */,
+				6CC84CF819ADF01A001C9813 /* tab-global-p@2x.png */,
+				6CC84CF919ADF01A001C9813 /* tab-global.png */,
+				6CC84CFA19ADF01A001C9813 /* tab-global@2x.png */,
+				6CC84CFB19ADF01A001C9813 /* tab-personal-p.png */,
+				6CC84CFC19ADF01A001C9813 /* tab-personal-p@2x.png */,
+				6CC84CFD19ADF01A001C9813 /* tab-personal.png */,
+				6CC84CFE19ADF01A001C9813 /* tab-personal@2x.png */,
+				6CC84CFF19ADF01A001C9813 /* tab-private-p.png */,
+				6CC84D0019ADF01A001C9813 /* tab-private-p@2x.png */,
+				6CC84D0119ADF01A001C9813 /* tab-private.png */,
+				6CC84D0219ADF01A001C9813 /* tab-private@2x.png */,
+			);
+			path = pic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +294,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC84D0B19ADF01A001C9813 /* tab-private-p.png in Resources */,
+				6CC84D0C19ADF01A001C9813 /* tab-private-p@2x.png in Resources */,
 				6CC84CC119ADED9D001C9813 /* Images.xcassets in Resources */,
+				6CC84D0319ADF01A001C9813 /* tab-global-p.png in Resources */,
+				6CC84D0719ADF01A001C9813 /* tab-personal-p.png in Resources */,
+				6CC84D0519ADF01A001C9813 /* tab-global.png in Resources */,
+				6CC84D0E19ADF01A001C9813 /* tab-private@2x.png in Resources */,
+				6CC84D0419ADF01A001C9813 /* tab-global-p@2x.png in Resources */,
+				6CC84D0D19ADF01A001C9813 /* tab-private.png in Resources */,
 				6CC84CB319ADED9D001C9813 /* InfoPlist.strings in Resources */,
+				6CC84D0819ADF01A001C9813 /* tab-personal-p@2x.png in Resources */,
+				6CC84D0619ADF01A001C9813 /* tab-global@2x.png in Resources */,
 				6CC84CBC19ADED9D001C9813 /* Main.storyboard in Resources */,
+				6CC84D0919ADF01A001C9813 /* tab-personal.png in Resources */,
+				6CC84D0A19ADF01A001C9813 /* tab-personal@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC84CF419ADEE18001C9813 /* VMSegmentControl.m in Sources */,
 				6CC84CB519ADED9D001C9813 /* main.m in Sources */,
 				6CC84CBF19ADED9D001C9813 /* VMViewController.m in Sources */,
 				6CC84CB919ADED9D001C9813 /* VMAppDelegate.m in Sources */,
