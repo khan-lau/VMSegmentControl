@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CC84CA919ADED9D001C9813 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC84CA819ADED9D001C9813 /* Foundation.framework */; };
+		6CC84CAB19ADED9D001C9813 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC84CAA19ADED9D001C9813 /* CoreGraphics.framework */; };
+		6CC84CAD19ADED9D001C9813 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC84CAC19ADED9D001C9813 /* UIKit.framework */; };
+		6CC84CB319ADED9D001C9813 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CB119ADED9D001C9813 /* InfoPlist.strings */; };
+		6CC84CB519ADED9D001C9813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC84CB419ADED9D001C9813 /* main.m */; };
+		6CC84CB919ADED9D001C9813 /* VMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC84CB819ADED9D001C9813 /* VMAppDelegate.m */; };
+		6CC84CBC19ADED9D001C9813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CBA19ADED9D001C9813 /* Main.storyboard */; };
+		6CC84CBF19ADED9D001C9813 /* VMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC84CBE19ADED9D001C9813 /* VMViewController.m */; };
+		6CC84CC119ADED9D001C9813 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CC019ADED9D001C9813 /* Images.xcassets */; };
+		6CC84CC819ADED9D001C9813 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC84CC719ADED9D001C9813 /* XCTest.framework */; };
+		6CC84CC919ADED9D001C9813 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC84CA819ADED9D001C9813 /* Foundation.framework */; };
+		6CC84CCA19ADED9E001C9813 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CC84CAC19ADED9D001C9813 /* UIKit.framework */; };
+		6CC84CD219ADED9E001C9813 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6CC84CD019ADED9E001C9813 /* InfoPlist.strings */; };
+		6CC84CD419ADED9E001C9813 /* VMSegmentControlExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC84CD319ADED9E001C9813 /* VMSegmentControlExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CC84CCB19ADED9E001C9813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CC84C9D19ADED9D001C9813 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CC84CA419ADED9D001C9813;
+			remoteInfo = VMSegmentControlExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CC84CA519ADED9D001C9813 /* VMSegmentControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VMSegmentControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC84CA819ADED9D001C9813 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6CC84CAA19ADED9D001C9813 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6CC84CAC19ADED9D001C9813 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6CC84CB019ADED9D001C9813 /* VMSegmentControlExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VMSegmentControlExample-Info.plist"; sourceTree = "<group>"; };
+		6CC84CB219ADED9D001C9813 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CC84CB419ADED9D001C9813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CC84CB619ADED9D001C9813 /* VMSegmentControlExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VMSegmentControlExample-Prefix.pch"; sourceTree = "<group>"; };
+		6CC84CB719ADED9D001C9813 /* VMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMAppDelegate.h; sourceTree = "<group>"; };
+		6CC84CB819ADED9D001C9813 /* VMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMAppDelegate.m; sourceTree = "<group>"; };
+		6CC84CBB19ADED9D001C9813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CC84CBD19ADED9D001C9813 /* VMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VMViewController.h; sourceTree = "<group>"; };
+		6CC84CBE19ADED9D001C9813 /* VMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMViewController.m; sourceTree = "<group>"; };
+		6CC84CC019ADED9D001C9813 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CC84CC619ADED9D001C9813 /* VMSegmentControlExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VMSegmentControlExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CC84CC719ADED9D001C9813 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6CC84CCF19ADED9E001C9813 /* VMSegmentControlExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VMSegmentControlExampleTests-Info.plist"; sourceTree = "<group>"; };
+		6CC84CD119ADED9E001C9813 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6CC84CD319ADED9E001C9813 /* VMSegmentControlExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VMSegmentControlExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CC84CA219ADED9D001C9813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC84CAB19ADED9D001C9813 /* CoreGraphics.framework in Frameworks */,
+				6CC84CAD19ADED9D001C9813 /* UIKit.framework in Frameworks */,
+				6CC84CA919ADED9D001C9813 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC84CC319ADED9D001C9813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC84CC819ADED9D001C9813 /* XCTest.framework in Frameworks */,
+				6CC84CCA19ADED9E001C9813 /* UIKit.framework in Frameworks */,
+				6CC84CC919ADED9D001C9813 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CC84C9C19ADED9D001C9813 = {
+			isa = PBXGroup;
+			children = (
+				6CC84CAE19ADED9D001C9813 /* VMSegmentControlExample */,
+				6CC84CCD19ADED9E001C9813 /* VMSegmentControlExampleTests */,
+				6CC84CA719ADED9D001C9813 /* Frameworks */,
+				6CC84CA619ADED9D001C9813 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CC84CA619ADED9D001C9813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CC84CA519ADED9D001C9813 /* VMSegmentControlExample.app */,
+				6CC84CC619ADED9D001C9813 /* VMSegmentControlExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CC84CA719ADED9D001C9813 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CC84CA819ADED9D001C9813 /* Foundation.framework */,
+				6CC84CAA19ADED9D001C9813 /* CoreGraphics.framework */,
+				6CC84CAC19ADED9D001C9813 /* UIKit.framework */,
+				6CC84CC719ADED9D001C9813 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CC84CAE19ADED9D001C9813 /* VMSegmentControlExample */ = {
+			isa = PBXGroup;
+			children = (
+				6CC84CB719ADED9D001C9813 /* VMAppDelegate.h */,
+				6CC84CB819ADED9D001C9813 /* VMAppDelegate.m */,
+				6CC84CBA19ADED9D001C9813 /* Main.storyboard */,
+				6CC84CBD19ADED9D001C9813 /* VMViewController.h */,
+				6CC84CBE19ADED9D001C9813 /* VMViewController.m */,
+				6CC84CC019ADED9D001C9813 /* Images.xcassets */,
+				6CC84CAF19ADED9D001C9813 /* Supporting Files */,
+			);
+			path = VMSegmentControlExample;
+			sourceTree = "<group>";
+		};
+		6CC84CAF19ADED9D001C9813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CC84CB019ADED9D001C9813 /* VMSegmentControlExample-Info.plist */,
+				6CC84CB119ADED9D001C9813 /* InfoPlist.strings */,
+				6CC84CB419ADED9D001C9813 /* main.m */,
+				6CC84CB619ADED9D001C9813 /* VMSegmentControlExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CC84CCD19ADED9E001C9813 /* VMSegmentControlExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CC84CD319ADED9E001C9813 /* VMSegmentControlExampleTests.m */,
+				6CC84CCE19ADED9E001C9813 /* Supporting Files */,
+			);
+			path = VMSegmentControlExampleTests;
+			sourceTree = "<group>";
+		};
+		6CC84CCE19ADED9E001C9813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CC84CCF19ADED9E001C9813 /* VMSegmentControlExampleTests-Info.plist */,
+				6CC84CD019ADED9E001C9813 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CC84CA419ADED9D001C9813 /* VMSegmentControlExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC84CD719ADED9E001C9813 /* Build configuration list for PBXNativeTarget "VMSegmentControlExample" */;
+			buildPhases = (
+				6CC84CA119ADED9D001C9813 /* Sources */,
+				6CC84CA219ADED9D001C9813 /* Frameworks */,
+				6CC84CA319ADED9D001C9813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VMSegmentControlExample;
+			productName = VMSegmentControlExample;
+			productReference = 6CC84CA519ADED9D001C9813 /* VMSegmentControlExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CC84CC519ADED9D001C9813 /* VMSegmentControlExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC84CDA19ADED9E001C9813 /* Build configuration list for PBXNativeTarget "VMSegmentControlExampleTests" */;
+			buildPhases = (
+				6CC84CC219ADED9D001C9813 /* Sources */,
+				6CC84CC319ADED9D001C9813 /* Frameworks */,
+				6CC84CC419ADED9D001C9813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CC84CCC19ADED9E001C9813 /* PBXTargetDependency */,
+			);
+			name = VMSegmentControlExampleTests;
+			productName = VMSegmentControlExampleTests;
+			productReference = 6CC84CC619ADED9D001C9813 /* VMSegmentControlExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CC84C9D19ADED9D001C9813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Khan.lau;
+				TargetAttributes = {
+					6CC84CC519ADED9D001C9813 = {
+						TestTargetID = 6CC84CA419ADED9D001C9813;
+					};
+				};
+			};
+			buildConfigurationList = 6CC84CA019ADED9D001C9813 /* Build configuration list for PBXProject "VMSegmentControlExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CC84C9C19ADED9D001C9813;
+			productRefGroup = 6CC84CA619ADED9D001C9813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CC84CA419ADED9D001C9813 /* VMSegmentControlExample */,
+				6CC84CC519ADED9D001C9813 /* VMSegmentControlExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CC84CA319ADED9D001C9813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC84CC119ADED9D001C9813 /* Images.xcassets in Resources */,
+				6CC84CB319ADED9D001C9813 /* InfoPlist.strings in Resources */,
+				6CC84CBC19ADED9D001C9813 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC84CC419ADED9D001C9813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC84CD219ADED9E001C9813 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CC84CA119ADED9D001C9813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC84CB519ADED9D001C9813 /* main.m in Sources */,
+				6CC84CBF19ADED9D001C9813 /* VMViewController.m in Sources */,
+				6CC84CB919ADED9D001C9813 /* VMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC84CC219ADED9D001C9813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC84CD419ADED9E001C9813 /* VMSegmentControlExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CC84CCC19ADED9E001C9813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CC84CA419ADED9D001C9813 /* VMSegmentControlExample */;
+			targetProxy = 6CC84CCB19ADED9E001C9813 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CC84CB119ADED9D001C9813 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CC84CB219ADED9D001C9813 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6CC84CBA19ADED9D001C9813 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CC84CBB19ADED9D001C9813 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CC84CD019ADED9E001C9813 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CC84CD119ADED9E001C9813 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CC84CD519ADED9E001C9813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CC84CD619ADED9E001C9813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CC84CD819ADED9E001C9813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VMSegmentControlExample/VMSegmentControlExample-Prefix.pch";
+				INFOPLIST_FILE = "VMSegmentControlExample/VMSegmentControlExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6CC84CD919ADED9E001C9813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VMSegmentControlExample/VMSegmentControlExample-Prefix.pch";
+				INFOPLIST_FILE = "VMSegmentControlExample/VMSegmentControlExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6CC84CDB19ADED9E001C9813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VMSegmentControlExample.app/VMSegmentControlExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VMSegmentControlExample/VMSegmentControlExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VMSegmentControlExampleTests/VMSegmentControlExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6CC84CDC19ADED9E001C9813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VMSegmentControlExample.app/VMSegmentControlExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VMSegmentControlExample/VMSegmentControlExample-Prefix.pch";
+				INFOPLIST_FILE = "VMSegmentControlExampleTests/VMSegmentControlExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC84CA019ADED9D001C9813 /* Build configuration list for PBXProject "VMSegmentControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC84CD519ADED9E001C9813 /* Debug */,
+				6CC84CD619ADED9E001C9813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CC84CD719ADED9E001C9813 /* Build configuration list for PBXNativeTarget "VMSegmentControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC84CD819ADED9E001C9813 /* Debug */,
+				6CC84CD919ADED9E001C9813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CC84CDA19ADED9E001C9813 /* Build configuration list for PBXNativeTarget "VMSegmentControlExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CC84CDB19ADED9E001C9813 /* Debug */,
+				6CC84CDC19ADED9E001C9813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CC84C9D19ADED9D001C9813 /* Project object */;
+}
